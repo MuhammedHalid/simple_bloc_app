@@ -37,7 +37,8 @@ class HomeScreen extends StatelessWidget {
           return Column(
             children: [
               Center(
-                child: Text((state as AuthSuccess).uid),
+                child: Text((state
+                 as AuthSuccess).uid),
               ),
               GradientButton(
                 onPressed: () {
